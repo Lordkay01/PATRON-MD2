@@ -11,7 +11,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "PATRON-MD~81e5615a5a839b58762fa8dcbe48bfbd",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false",
 // make true or false status auto seen
@@ -27,15 +27,15 @@ MENTION_REPLY: process.env.MENTION_REPLY || "false",
 // make true if want auto voice reply if someone menetion you 
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
-STICKER_NAME: process.env.STICKER_NAME || "PATRON-MD\ndo .allvar to change sticker pack name",
+STICKER_NAME: process.env.STICKER_NAME || "Manja-md\ndo .allvar to change sticker pack name",
 // type sticker pack name 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react    
 CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙, ,🤎,🚹,🤍",
 // chose custom react emojis by yourself 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "2348133729715",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "2347045505096",
 // add your bot owner number
-OWNER_NAME: process.env.OWNER_NAME || "PATRON",
+OWNER_NAME: process.env.OWNER_NAME || "Manja 2",
 // add bot owner name
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
